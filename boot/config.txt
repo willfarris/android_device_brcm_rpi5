@@ -18,6 +18,7 @@ disable_overscan=1
 # Graphics acceleration
 dtoverlay=vc4-kms-v3d
 dtoverlay=cma,cma-320
+dtoverlay=vc4-kms-dsi-waveshare-panel,8_0_inch
 
 # I2C
 #dtparam=i2c_arm=on
@@ -27,6 +28,8 @@ dtoverlay=cma,cma-320
 
 # SPI
 #dtparam=spi=on
+#dtoverlay=mcp251xfd,spi0-0,interrupt=25
+#dtoverlay=mcp251xfd,spi0-1,interrupt=05
 
 # USB
 dtoverlay=dwc2,dr_mode=peripheral

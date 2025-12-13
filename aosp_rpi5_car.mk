@@ -112,7 +112,7 @@ PRODUCT_COPY_FILES += \
 
 # Vehicle
 PRODUCT_PACKAGES += \
-    android.hardware.automotive.vehicle@V4-default-service
+    android.hardware.automotive.vehicle@vhal-volt-service
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_DEVICE := rpi5
